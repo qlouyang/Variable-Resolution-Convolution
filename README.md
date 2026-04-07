@@ -29,3 +29,7 @@ flux = np.random.normal(1.0, 0.1, 5000)       # Normalized flux
 coeffs = (2.5, 1500)                          # a, b for R(λ) = a*λ + b
 
 convolved_flux = convolve_spectrum_vari(wavelengths, flux, coeffs, quiet=False)
+
+## Citation
+The details can be found at **this link** (after the paper is accepted)
+If you use this code in your research, please cite our paper: **this link**
