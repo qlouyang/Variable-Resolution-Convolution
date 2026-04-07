@@ -1,6 +1,6 @@
 # Fast Variable Resolution Convolution for Spectra
 
-This repository provides a highly efficient Python function to convolve stellar or exoplanetary spectra with a wavelength-dependent instrumental profile (resolving power $R(\lambda)$).
+This repository provides a highly efficient Python function to convolve stellar or exoplanetary spectra with a wavelength-dependent instrumental resolving power $$R(\lambda)$$.
 
 ## Method
 
