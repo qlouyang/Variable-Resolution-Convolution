@@ -23,7 +23,7 @@ By interpolating the spectrum onto this uniform $u$-grid, we can apply an ultraf
 import numpy as np
 from convolve_spectrum_vari_R import convolve_spectrum_vari
 
-# Example: Broaden a spectrum where R(λ) = 2.5 * λ + 1500
+# Example: Broaden a spectrum where R(λ) = 500 * λ + 50
 wavelengths = np.linspace(0.6, 3.0, 2000) # microns
 flux = np.random.normal(1.0, 0.1, 5000)       # Normalized flux
 coeffs = (500, 50)                          # a, b for R(λ) = a*λ + b
