@@ -2,7 +2,7 @@ import numpy as np
 from scipy.interpolate import interp1d
 from PyAstronomy.pyasl import broadGaussFast
 
-def convolve_spectrum_vari(model_wave: np.ndarray, model_flux: np.ndarray, func_coeffs: tuple, quiet: bool = True) -> np.ndarray:
+def fastconv_VariR(model_wave: np.ndarray, model_flux: np.ndarray, func_coeffs: tuple, quiet: bool = True) -> np.ndarray:
     """
     Convolve a spectrum with a wavelength-dependent instrumental resolution R(λ), such as JWST instruments.
     
