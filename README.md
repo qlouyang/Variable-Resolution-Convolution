@@ -32,5 +32,6 @@ convolved_flux = fastconv_VariR(wavelengths, flux, coeffs, quiet=False)
 
 ```
 ## Citation
-The details can be found at [https://arxiv.org/abs/2605.30871](https://arxiv.org/abs/2605.30871)
+The details can be found at [https://arxiv.org/abs/2605.30871](https://arxiv.org/abs/2605.30871).
+
 If you use this code in your research, please cite our paper.
